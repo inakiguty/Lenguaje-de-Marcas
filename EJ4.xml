@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shiporder orderid="str1234">
+  <orderperson>str1234</orderperson>
+  <shipto>
+    <name>Iñaki Gutierrez</name>
+    <address>C/Ruiz Del Peral</address>
+    <city>Sevilla</city>
+    <country>España</country>
+  </shipto>
+  <item>
+    <title>Altavoz</title>
+    <note>"La mejor calidad con el mejor precio"</note>
+    <quantity>3</quantity>
+    <price>124,6</price>
+  </item>
+</shiporder>
