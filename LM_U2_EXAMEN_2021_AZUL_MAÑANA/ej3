@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="3">
+        <tbody><tr>
+            <th>Número del catálogo</th>
+            <th>Nombre</th>
+            <th>Imagen</th>
+            <th>Web donde lo encontramos</th>
+            <th>Tienda</th>
+            <th>Precio</th>
+        </tr>
+
+        <tr>
+            <td>7821562</td>
+            <td>Atari Mini</td>
+            <td><img src="http://aulavirtual.iesalixar.org/pluginfile.php/10975/mod_assign/intro/monitor.png"></td>
+            <td><a href="http://www.ebay.es" target="blank">http://www.ebay.es</a></td>
+            <td>E-Bay</td>
+            <td>100€</td>
+            
+        </tr>
+
+        <tr>
+            <td>243243</td>
+            <td>Super Nintendo Mini</td>
+            <td><img src="http://aulavirtual.iesalixar.org/pluginfile.php/10975/mod_assign/intro/nintendo.png"></td>
+            <td rowspan="3" colspan="2"><a href="http://www.amazon.es" target="blank">http://www.amazon.es</a></td>
+            
+            <td>100€</td>
+        </tr>
+
+
+        <tr>
+            <td>593922</td>
+            <td>Mega Drive Mini</td>
+            <td><img src="http://aulavirtual.iesalixar.org/pluginfile.php/10975/mod_assign/intro/sega.png?time=1605888552606"></td>
+            <td>200€</td>
+        </tr>
+
+        <tr>
+            <td>293944</td>
+            <td>Playstation Mini</td>
+            <td><img src="http://aulavirtual.iesalixar.org/pluginfile.php/10975/mod_assign/intro/play.png"></td>
+            <td>300€</td>
+            
+        </tr>
+
+        <tr>
+            <td>Número del catálogo</td>
+            <td>Nombre</td>
+            <td>Imagen</td>
+            <td>Web donde lo encontramos</td>
+            <td>Tienda</td>
+            <td>Precio</td>
+        </tr>
+    </tbody></table>
+   
+</body>
+</html>
