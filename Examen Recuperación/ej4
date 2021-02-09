@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th,
+        td {
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <thead>
+                <tr style="background-color: rgb(163, 163, 162);">
+                    <th colspan="6">IES Alixar Login</th>
+                   
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td ><label for="email">Usuario</label></td>
+                    <td><input type="text" id="id"></td>
+                </tr>
+                <tr>
+                    <td><label for="id">Password</label></td>
+                    <td><input type="text" id="id"></td>
+                </tr>
+                <tr>
+                    <td><label for="name">Fecha de Nacimiento</label></td>
+                    <select id="leave">
+                        <td>[dd-mm-aaaa]</td>
+                    </select>                 
+                </tr>
+                <tr>
+                    <td><label for="leave">Curso Matriculación</label></td>
+                    <td>
+                        <select id="leave">
+                            <option>Primero Daw</option>
+                            <option>Segundo Daw</option>
+                            <option>____________________</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+            
+                </tr>
+               
+                <tr>
+                    <td><label for="day">Role:</label></td>
+                    
+                </tr>
+                <tr>
+                    <td><label for="reason">Forma de Comunicación</label></td>
+                   
+            </tbody>
+            <tfoot>
+                
+                    <th colspan="2">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar">
+                    </th>
+                </tr>
+                
+            </tfoot>
+        </table>
+    </form>
+</body>
+</html>
