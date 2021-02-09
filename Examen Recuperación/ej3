@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        border-collapse: separate;
+        border: 1px solid black;
+        padding: 10px;
+    }
+</style>
+<body>
+
+    <t>Multi-level</t>
+    <img style="float:right ;" src="img/nasa.png" width="370px"  >
+    <ol style="list-style-type:decimal ">
+        <li>A
+            <ol style="list-style-type:lower-alpha ">
+                <li>A1</li>
+                    <ol style="list-style:lower-roman " >
+                        <li>A.1.1</li>
+                    </ol>
+
+                <li>A2</li>
+                <ol style="list-style:lower-roman " >
+                    <li>A.2.1</li>
+                </ol>
+            </ol>
+        </li>
+        <li>B
+            <ol style="list-style-type: lower-alpha;">
+                <li>B1</li>
+                <ol style="list-style:lower-roman " >
+                    <li>B.1.1</li>
+                    <li>B.1.2</li>
+                </ol>
+                <li>B2</li>
+                <ol style="list-style:lower-roman " >
+                    <li>B.2.1</li>
+                    <li>B.2.2</li>
+            </ol>
+        </li>
+        <li>
+            C
+        </li>
+        
+       
+       
+</body>
+</html>
