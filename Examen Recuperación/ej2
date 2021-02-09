@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: separate;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+        <table>
+            <tr>
+                <th colspan="5" >CABECERA DE LA TABLA</th>
+                
+            </tr>
+            <tr>
+                <th colspan="2">Esquina</th>
+                <td colspan="3">Casilla 1</td>
+                
+            </tr>
+            <tr>
+                <td>Casilla 4</td>
+                <td>Casilla 5</td>
+                <td>Casilla 2</td>
+                <td colspan="3">Casilla 3</td>
+                
+            </tr>
+            <tr>
+                <th>A</th>
+                <th rowspan="2"></th>
+                <td><br>
+                    Elemento 1<br>
+                    Elemento 2<br>
+                    Elemento 3<br>
+
+                </td>
+                <td colspan="3">Casilla 7</td>
+            </tr>
+            
+            <tr>
+                <th><img src="img/cross.png"> </th>
+                <th><img src="img/ok.png"></th>
+                <td>Casilla 8</td>
+                <td>Casilla 9</td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+
+</html>
